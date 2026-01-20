@@ -1,0 +1,5 @@
+#Security model for NovaTech Sales org
+
+Is Data private by default? Yes
+Who should see whose deals?
+Do managers see subordinates?

@@ -1,0 +1,13 @@
+#Org wide defaults
+
+	Accounts: Private
+	Contacts: Controlled by Parent
+	Opportunities: Private
+	Leads: Private
+
+## Org-Wide Defaults
+NovaTech uses a private data model for all core sales objects.
+Internal access is restricted to record owners and role hierarchy.
+External access is locked down in preparation for future partner or customer portals.
+
+

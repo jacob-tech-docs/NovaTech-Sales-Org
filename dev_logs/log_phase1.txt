@@ -1,0 +1,12 @@
+#file contains dev logs for Phase 1:Org setup phase. 
+
+Log: Turned on multi currency in settings. 
+
+Log: Added EUR currency with Converstion Rate: 1.164
+
+Log: Created Roles and Profiles reflecting users positions.
+
+Log: Set Org Wide defaults. Private to many objects like Account.
+
+Log: Setup Sales User for testing. Tried to setup Sales manager
+     but ran into licensing issues. Only one additional Salesforce license.

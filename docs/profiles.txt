@@ -1,0 +1,9 @@
+#Profiles for NovaTech Sales org
+
+Sales Rep Profile
+Sales Manager Profile
+Sales Ops / Admin-lite Profile
+RevOps Analyst Profile
+
+What are each profiles for?
+Key Differences between them?

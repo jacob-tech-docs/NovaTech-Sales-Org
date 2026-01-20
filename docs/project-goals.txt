@@ -1,0 +1,22 @@
+Goal
+Configure a fresh Salesforce org to support a complete B2B sales motion for NovaTech Industrial Systems, including lead-to-cash processes, quoting, forecasting, and renewals. The org will simulate a real implementation with security, data model, and sales process customization aligned to business requirements.
+
+Sales Scenario
+NovaTech Industrial Systems is a B2B manufacturer and solutions provider in industrial automation.
+
+Company Type
+B2B industrial equipment + software-enabled services.
+
+What is being sold
+	Capital equipment (bulk/large deals): industrial sensors, controllers, and gateway hardware sold in bundles for plant deployments
+	Subscriptions: “NovaTech Monitor” (cloud monitoring + analytics) licensed per site/device
+	Add-ons: premium support tiers, installation/commissioning services, training packages, and extended warranties
+
+Who sells it
+	NovaTech Sales team (Sales Reps + Sales Managers) sells to mid-market and enterprise manufacturing customers
+	RevOps supports process, reporting, and forecasting
+
+What success looks like
+	Increased subscription attach rate (equipment deals that include Monitor subscriptions)
+	Higher renewal rates and expansion (adding sites/devices, upgrading support tiers)
+	Accurate pipeline + forecast visibility across regions

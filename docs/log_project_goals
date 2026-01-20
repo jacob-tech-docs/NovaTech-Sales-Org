@@ -1,0 +1,15 @@
+Goal: Configure a fresh Salesforce org to support a full B2B sales motion with custom business rules, automation, reporting, and a clean data model.
+
+The org is to simlate a real life sales org with custom configurations aimed
+at meeting the custom business criteria the business demands.
+
+Sales Scenario:
+B2B SAAS Company
+  -> Sells Stanalone bulk Items
+  -> Sells subscriptions + addons
+  -> Uses opps and quotes
+
+Company Type: Company sells Industrial equipment in bulk and subscriptions.
+What is being sold: Industrial equipment and packages, and software for some of the equipment.
+Who Sells it: NovaTech Sales teams sell the products.
+What success looks like: Selling subsciption based products.

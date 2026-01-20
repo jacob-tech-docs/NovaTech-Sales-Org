@@ -1,0 +1,7 @@
+#Roles for NovaTech Org
+	
+        CEO
+	VP Sales
+	  Sales Manager
+	  Sales Rep
+        Director, Revenue Operations, RevOps 
