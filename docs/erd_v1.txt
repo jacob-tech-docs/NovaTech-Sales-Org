@@ -1,0 +1,14 @@
+Erd Version 1
+
+erDiagram
+  ACCOUNT ||--o{ CONTACT : has
+  ACCOUNT ||--o{ OPPORTUNITY : has
+  ACCOUNT ||--o{ SITE__C : has
+  ACCOUNT ||--o{ SUBSCRIPTION__C : has
+  ACCOUNT ||--o{ IMPLEMENTATION_PROJECT__C : has
+
+  SITE__C ||--o{ SUBSCRIPTION__C : supports
+  SITE__C ||--o{ IMPLEMENTATION_PROJECT__C : hosts
+
+  OPPORTUNITY ||--o{ SUBSCRIPTION__C : originates
+  OPPORTUNITY ||--o{ IMPLEMENTATION_PROJECT__C : triggers

@@ -1,2 +1,70 @@
 #Phase 2 Logs
 #Data model and Custom Objects
+
+Log: Created NovaTech Sales process and added new Stage picklist values.
+
+Log: Created B2B Record Type on Opp assigned to all profiles. Opp Sales layout assigned to all profiles.
+
+Log: Created customm fields on Account, Contact, Lead, and Opportunity
+Lead
+	•	Lead Source Detail (Picklist)
+	•	Product Interest (Picklist)
+
+Account
+	•	Customer Segment (Picklist)
+	•	Region (Picklist)
+
+Opportunity
+	•	Deal Type (Picklist)
+	•	Primary Product Line (Picklist)
+	•	Subscription Attach (Checkbox)
+
+Contact (optional)
+	•	Buying Role (Picklist)
+
+
+Log: Created Custom Object 
+name: Site 
+        •	Account (Lookup to Account) (required)
+	•	Site Type (Picklist)
+	•	Region (Picklist)
+	•	Active (Checkbox)
+
+
+Log: Created Custom Object 
+name: Subscription__c 
+        •	Account (Lookup to Account) (required)
+	•	Site (Lookup to Site)
+	•	Region (Picklist)
+	•	Active (Checkbox)
+	Originating Opportunity (Lookup to Opportunity) (optional but useful)
+	•	Start Date (Date)
+	•	End Date (Date)
+	•	Status (Picklist: Pending, Active, Expired, Cancelled)
+	•	Billing Frequency (Picklist: Monthly, Annual)
+	•	Annual Value (Currency)
+	•	Auto-Renew (Checkbox)
+
+Log: Created Custom Object 
+name: Implementation_Project__c
+        •	Account (Lookup to Account) (required)
+	•	Opportunity (Lookup to Opportunity) (recommended)
+	•	Site (Lookup to Site) (optional)
+	•	Status (Picklist: Not Started, In Progress, Blocked, Complete)
+	•	Go-Live Date (Date)
+	•	Scope Summary (Long Text Area)
+
+Log: Created Test Data
+        * Account - Atlas Manufacturing
+	* Account - Euro Steel Industries
+	* Created Contacts associated to Accounts
+	* Created two sites for Atlas. One for EuroSteel
+	* Created an opportunity for each account.
+	* Closed Atlas Opp and added subscription.
+	* Added implementation project to Atlas Opp.
+
+Log: Created Reports
+	* Created 3 reports
+	* Created Dashboard
+
+
