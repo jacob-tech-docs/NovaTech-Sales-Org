@@ -26,14 +26,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>Report</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>CustomApplication</name>
     </types>
     <types>
