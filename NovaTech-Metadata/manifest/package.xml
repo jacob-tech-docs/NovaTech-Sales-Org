@@ -1,36 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- ========================= -->
+    <!-- CORE CUSTOM OBJECTS       -->
+    <!-- ========================= -->
     <types>
-        <members>*</members>
+        <members>Site__c</members>
+        <members>Implementation_Project__c</members>
         <name>CustomObject</name>
     </types>
+
+    <!-- ========================= -->
+    <!-- STANDARD OBJECT EXTENSIONS -->
+    <!-- (Pulls fields, validation, etc.) -->
+    <!-- ========================= -->
     <types>
-        <members>*</members>
-        <name>CustomField</name>
+        <members>Lead</members>
+        <members>Account</members>
+        <members>Opportunity</members>
+        <members>Contact</members>
+        <name>CustomObject</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomApplication</name>
-    </types>
+
+    <!-- ========================= -->
+    <!-- RECORD TYPES              -->
+    <!-- ========================= -->
     <types>
         <members>*</members>
         <name>RecordType</name>
     </types>
+
+    <!-- ========================= -->
+    <!-- FLOWS (Sales Lifecycle)   -->
+    <!-- ========================= -->
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+
+    <!-- ========================= -->
+    <!-- PERMISSION SETS           -->
+    <!-- ========================= -->
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- ========================= -->
+    <!-- ROLES (Security Model)    -->
+    <!-- ========================= -->
+    <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>
+
+    <!-- ========================= -->
+    <!-- PAGE LAYOUTS (Selective)  -->
+    <!-- Pull all for now, prune later -->
+    <!-- ========================= -->
+    <types>
+        <members>*</members>
+        <name>Layout</name>
+    </types>
+
+    <!-- ========================= -->
+    <!-- APPS & NAVIGATION         -->
+    <!-- ========================= -->
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+
+    <!-- ========================= -->
+    <!-- SUPPORTING METADATA       -->
+    <!-- ========================= -->
+
+    <!-- Picklist Value Sets (Opportunity Stage, Lead Status, etc.) -->
+    <types>
+        <members>*</members>
+        <name>StandardValueSet</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>GlobalValueSet</name>
+    </types>
+
+    <!-- List Views (Optional but useful) -->
+    <types>
+        <members>*</members>
+        <name>ListView</name>
+    </types>
+
+    <!-- Field Sets (if used in UI/logic) -->
+    <types>
+        <members>*</members>
+        <name>FieldSet</name>
+    </types>
+
+    <!-- Path / Sales Process UI (optional but nice for portfolio) -->
+    <types>
+        <members>*</members>
+        <name>PathAssistant</name>
+    </types>
+
+    <!-- Sharing Rules (only if configured) -->
+    <types>
+        <members>*</members>
+        <name>SharingRules</name>
+    </types>
+
     <version>60.0</version>
 </Package>
