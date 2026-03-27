@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- ========================= -->
+    <!-- ROLES (Selective)         -->
+    <!-- ========================= -->
+    <types>
+        <members>CEO</members>
+        <members>VP_Sales</members>
+        <members>Sales_Manager</members>
+        <members>Sales_Rep</members>
+        <members>Director_Revenue_Operations</members>
+        <name>Role</name>
+    </types>
+
+    <version>60.0</version>
+</Package>
