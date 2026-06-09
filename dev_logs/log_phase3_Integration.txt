@@ -1,0 +1,13 @@
+#Phase 3 Integration Phase
+#Create an integration between Cpq Trailhead org and custom Linux Service.
+
+Log: Created NovaTech Integration user. Used Salesforce License, with Sys Admin profile. 
+     May change profile later.
+
+Log: Created External Client App. Enabled JWT Bearer Flow setting and uploaded linux server.crt.
+
+Linux Log: Created linux service on Rocky Linux using python. Successfully created account and opp In salesforce. 
+
+
+
+

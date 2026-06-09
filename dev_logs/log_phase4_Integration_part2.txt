@@ -1,0 +1,18 @@
+#Phase 4 Integration Phase 2
+#Create an integration between Cpq Trailhead org and custom Linux Service. This phase we are creating a listener on linux and sending data from Salesforce. 
+
+Linux Log; Created env linux app,py setup. Created ngrok account and got forwarding public address. Uncured-desecrate.dev. Linux server actively listening. Mac curl successful
+
+SF Log: Created Named Credential in Salesforce Setup. Created New Legacy Credential in dropdown.
+
+SF Log: Created Apex Class: SendAccountToLinuxQueueable
+
+SF Log: Created Apex Class: SendAccountToLinuxAction
+
+SF Log: Created Apex Test Class, and ran with success: SendAccountToLinuxTest
+
+SF Log: Created Record Triggered Flow. Flow uses an Action element to call Apex Send Account to Linux action. In put is Account id $Record.AccountId. Flow runs when record is created or updated. As long as name is not null.
+
+SF Log: Created test account, Linux Listener Test.
+
+Linux Log: NGROK recorded server input. Salesforce Payload received in salesforce_payloads folder. 
