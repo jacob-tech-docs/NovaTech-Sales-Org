@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="NovaTech Account Health" icon-name="standard:account">
+        <div class="slds-p-around_medium">
+            
+            <template if:true={health}>
+                <p><strong>Account:</strong> {health.accountName}</p>
+                <p><strong>Industry:</strong> {health.industry}</p>
+                <p><strong>Rating:</strong> {health.rating}</p>
+                <p><strong>Opportunities:</strong> {health.opportunityCount}</p>
+                <p><strong>CPQ Quotes:</strong> {health.quoteCount}</p>
+
+                <div class="statusBox">
+                    <strong>Status:</strong> {health.status}
+                </div>
+
+                <template if:true={hasQuoteActivity}>
+                    <p class="quoteMessage">This account has quote activity in CPQ.</p>
+                </template>
+            </template>
+
+            <template if:true={error}>
+                <p class="errorText">Unable to load account health.</p>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

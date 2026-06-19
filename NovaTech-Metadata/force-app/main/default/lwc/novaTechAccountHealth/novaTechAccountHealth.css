@@ -1,0 +1,17 @@
+.statusBox {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background: #f3f3f3;
+    font-weight: 600;
+}
+
+.quoteMessage {
+    margin-top: 0.75rem;
+    color: #2e844a;
+    font-weight: 600;
+}
+
+.errorText {
+    color: #ba0517;
+}
